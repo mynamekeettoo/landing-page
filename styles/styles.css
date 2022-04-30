@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.main-text {
+    color: #F9FAF8;
+}
+
+.sub-text {
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+#main-title {
+    color: #F9FAF8;
+    font-size: 48;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 16px 100px 64px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.left, .right {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-top: 56px;
+}
+
+img {
+    max-height: 200px;
+    width: auto;
+    border: 10px #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #E5E7EB;
+    padding: 4px 16px 4px 16px;
+    border: 0px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 100px 16px 100px;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.icon {
+    max-height: 80px;
+    width: auto;
+}
+
+.item1, .item2, .item3, .item4 {
+    text-align: center;
+    margin-top: 0px;
+    color: #1F2937;
+}
+
+#info-title {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
